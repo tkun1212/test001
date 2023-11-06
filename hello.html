@@ -1,0 +1,44 @@
+<!doctype html>
+<meta charset="UTF-8">
+<body>
+<h1>クリア!!21</h1>
+<script>
+function fast(){
+var ID = 0;
+    var user = prompt("桜=>皿.薬=>栗.車=>?");
+        if(user=="熊" || user=="くま"){
+            var ID = 1;
+}else{
+    alert=("答えを入力してください");
+    fast();
+    }
+if (ID == 1){
+    var pass=prompt("DMに届く謎を解け!! 答えがわかんない場合は聞いてね★(届いてない場合はDMで教えて)解説聞きたい場合もね(答え聞けるの1回まで)");
+var passWord="たから";
+if(pass == passWord){
+var ID = 2;
+}else{
+    fast();
+}
+}
+if(ID == 2){
+var three = prompt("みきくけこ");
+    if(three=="鏡" || three=="かがみ"){
+    var ID = 3;
+    }else{
+        fast();
+    }
+}
+if(ID == 3);
+var four = prompt("PとK 何の肉？");
+    if(four=="豚肉" || four=="pork"){
+var ID = 4;
+    }else{
+        fast();
+    }
+}
+
+
+    window.onload=fast;
+</script>
+</body>
